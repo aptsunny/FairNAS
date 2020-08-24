@@ -8,7 +8,8 @@ from torch.utils.data import DataLoader
 from torchvision import datasets, transforms
 
 TRAIN_DIR = 'train'
-VALIDATION_DIR = 'valid'
+# VALIDATION_DIR = 'valid'
+VALIDATION_DIR = 'val'
 
 MEAN_RGB = (0.485, 0.456, 0.406)
 VAR_RGB = (0.229, 0.224, 0.225)
